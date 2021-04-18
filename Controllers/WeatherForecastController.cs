@@ -11,9 +11,14 @@ namespace api_docker_terraform.Controllers
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
+        // private static readonly string[] Summaries = new[]
+        // {
+        //     "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+        // };
+
         private static readonly string[] Summaries = new[]
         {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+            "xxxx", "xxxx", "xxxx", "xxxx", "xxxx", "xxxx", "xxxx", "xxxx", "xxxx", "xxxx"
         };
 
         private readonly ILogger<WeatherForecastController> _logger;
